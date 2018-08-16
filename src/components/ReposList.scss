@@ -1,0 +1,46 @@
+// here use scss instead of css
+
+.listContainer {
+  // display:flex;
+  // flex-direction: row;
+}
+
+.reposListContainer {
+  background-color: #e0eeee;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.tableContainer {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  table {
+    text-align: left;
+    display: block;
+    table-layout:fixed;
+    td {
+      word-break:break-all;
+      vertical-align: top;
+    }
+    th, td {
+      padding: 0 50px;
+      @media screen and (max-width: 768px) {
+        padding: 0 5px;
+      }
+    }
+  }
+  .listRepoNameLink {
+    background: #6495ed;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor: pointer;
+    vertical-align: middle;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  .listRepoUrl {
+    padding: 0 50px;
+  }
+}

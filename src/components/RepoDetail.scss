@@ -1,0 +1,45 @@
+.repoDetailContainer {
+  background-color: #dcdcdc;
+  padding: 5px;
+  margin: 10px 0;
+  border-radius: 15px;
+
+  .repoInfo {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 15px;
+    display: flex;
+    @media screen and (max-width: 768px) {
+      margin: 0;
+      padding: 0;
+    }
+
+    .avatarContainer {
+      min-width:100px;
+      min-height:100px;
+      max-width:200px;
+      max-height:200px;
+      @media screen and (max-width: 768px) {
+        max-width:150px;
+        max-height:150px;
+      }
+      padding: 10px;
+      img {
+        max-width:100%;
+        max-height:100%;
+      }
+    }
+  
+    .repoInfoContainer {
+      padding: 10px;
+      margin-left: 100px;
+      @media screen and (max-width: 1200px) {
+        margin-left: 0;
+      }
+      .repoDesc {
+        text-align: left;
+      }
+    }
+  }
+}
