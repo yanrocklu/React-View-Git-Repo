@@ -17,7 +17,7 @@ const RepoDetail = props => {
         <div className="repoInfoContainer">
           <h2>{githubRepo.repoName}</h2>
           <p>{githubRepo.repoOwner.ownerLogin}</p>
-          <p className="repoDesc">{'Repo Description: ' + githubRepo.repoDesc || 'No Description.'}</p>
+          <p className="repoDesc">{'Repo Description: ' + (githubRepo.repoDesc || 'No Description.')}</p>
         </div>
       </div>
     </div>
