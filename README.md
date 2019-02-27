@@ -38,7 +38,7 @@ my-app/
 
 **Techs the project uses**:
 
-1. Uses React, React-Route
-2. Uses SASS/SCSS instead of css
-3. Uses flexbox to design flexible responsive layout structure without using float or positioning.
-4. Uses media query to modify the app depending on a device's general type or specific characteristics and parameters (such as screen resolution or browser viewport width).
+1. Uses **React**, **React-Route**
+2. Uses **SASS**/**SCSS** instead of css
+3. Uses **flexbox** to design flexible responsive layout structure without using float or positioning.
+4. Uses **media query** to modify the app depending on a device's general type or specific characteristics and parameters (such as screen resolution or browser viewport width).
